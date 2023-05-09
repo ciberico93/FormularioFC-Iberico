@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='formulario.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <h1 id="title"> Formulario "Academia FC Iberico"</h1>
+    <p id="description"> Registra tu información para que puedas formar parte del equipo FC Iberico</p>
+    <form id="survey-form">
+     
+      <fieldset class="seccion1">
+      
+        <label>Nombres y apellidos:<input  id="name-label" type="text" required placeholder="Coloca aqui tu nombre"> </label>
+        <label>Correo:<input  id="email" type="email-label" required placeholder="Example@example.com"></label>
+        <label>Ingresa tu edad: <input  id="number-label" type="number" required min="17" max="23" placeholder="Aqui tu edad"> </label>
+      
+      </fieldset>
+  
+      <fieldset class="seccion2">
+  
+        <p>¿Como te enteraste de nosotros?</p>
+        <select class="seleccion5">
+          <option>(Selecciona uno)</option>
+          <option>Por redes sociales</option>
+          <option>En la calle</option>
+          <option>Recomendación</option>
+  
+        </select>
+        
+      </fieldset>
+      
+      <fieldset>
+        <div clsas="seccion3">
+        <p>¿Jugaste anteriormente en algún otro equipo?</p>
+        <label>Si<input class="empuje" type="radio" name="si-no"></label>
+        <label>No<input type="radio" name="si-no"></label>
+      
+         </div>
+      </fieldset>
+      
+      <fieldset>
+        <div class="seccion4">
+        <p>¿Cúales son los puestos en los cuales prefieres jugar? </p>
+          <label><input value="" type="checkbox">Arquero</label>
+          <label><input value="" type="checkbox">Defensa-Central</label>
+          <label><input value="" type="checkbox">Defensa-Lateral</label>
+          <label><input value="" type="checkbox">Volante-Defensivo</label>
+          <label><input value="" type="checkbox">Volante-Ofensivo</label>
+          <label><input value="" type="checkbox">Extremo</label>
+          <label><input value="" type="checkbox">Delantero</label>
+        </div>
+      </fieldset>
+    
+      <fieldset>
+        <label> Cuentanos de ti </label>
+        <textarea placeholder="Escribe algo sobre ti..." rows="5" cols="40"></textarea>
+  
+      </fieldset>
+  
+      <fieldset class="ultima-seccion">
+  
+        <input id="submit" type="submit" >
+      </fieldset>
+  
+    </form>
+  </body>
+</html>

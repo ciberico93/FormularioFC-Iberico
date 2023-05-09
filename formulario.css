@@ -1,0 +1,112 @@
+body{
+    margin: 150 0 px;
+    background-image: url(https://w0.peakpx.com/wallpaper/84/4/HD-wallpaper-fifa-football-ball.jpg);
+    width: 100%;
+    height: 80vh;
+    margin: 0;
+    background-color: #1b1b32;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-size: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  
+  
+  h1,p{
+    text-align: left ;
+    font-style: tahoma;
+    color: aliceblue;
+    
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding : 20px;
+    background-color: rgb(20, 20, 20);
+    opacity: 0.98;
+    border-radius: 23px;
+    box-shadow: 1px 3px 20px #0a0a23;
+  
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    font-style: tahoma;
+    color: aliceblue;
+    
+  
+  }
+  
+  .seccion3{
+  
+    margin: 0 0.5em 0 0;
+    display: inline-block;
+    vertical-align: auto;
+  }
+
+
+  
+  .empuje {
+    margin-left: 11px;
+  }
+  
+  .seccion4{
+    display: inline-block;
+    vertical-align: middle;
+  
+  }
+  
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+  }
+  
+  input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+  }
+  
+  .seccion1 label input {
+    width: 100%;
+    min-height: 4em;
+  }
+  
+  .ultima-seccion input{
+    width: 100%;
+  }
+  
+  textarea {
+    height: 100px;
+    resize: none;
+  }
+  
+  input[type="submit"]{
+    cursor: pointer;
+    height: 30px;
+  }
+  
+  input[type="submit"]:hover{
+    background-color: green;
+    opacity: 0.99;
+  }
+  
+  input[type="submit"]:focus{
+    background-color: green;
+    opacity: 0.99;
+    border : 1px solid #fff;
+  }
+
+.seleccion5{
+  margin-bottom: 15px;
+}
+
